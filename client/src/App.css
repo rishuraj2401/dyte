@@ -1,0 +1,32 @@
+.cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aquamarine;
+  text-align: center;
+}
+.search{
+  width: 60vw;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  /* background-color: blueviolet; */
+}
+.search select, .search button{
+  width: 15vw;
+  height:3vw;
+  color: blue;
+  min-width: fit-content;
+  min-height: fit-content;
+}
+.search input{
+  height: 3vw;
+  width:20vw;
+  min-width: max-content;
+  min-height: fit-content;
+}
+.output{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
